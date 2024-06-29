@@ -16,5 +16,6 @@
  - Factory
    - Cenário de uma instituição financeira com empréstimos (CCB) e fianças. A classe proposta é a criadora dos produtos.
  - Observer
+   - Observadores são torcedores de certos times, e o evento é o início da partida.
  - Singleton
  - Chain of Responsability
