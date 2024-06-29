@@ -18,4 +18,5 @@
  - Observer
    - Observadores são torcedores de certos times, e o evento é o início da partida.
  - Singleton
+   - O cenário é o do uso de Logs de alguma aplicação. Toda a aplicação deverá fazer registros de eventos no mesmo arquivo de log, o que explica uma instância única para isso.
  - Chain of Responsability
