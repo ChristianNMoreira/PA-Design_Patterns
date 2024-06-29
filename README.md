@@ -21,3 +21,5 @@
    - O cenário é o do uso de Logs de alguma aplicação. Toda a aplicação deverá fazer registros de eventos no mesmo arquivo de log, o que explica uma instância única para isso.
  - Chain of Responsability
    - Usando o mesmo cenário do Factory, foram adicionadas validações para uma proposta de operação. Clientes são adicionados em um banco de dados (classe `DataBase`) com restrições para valor em operações e número de operações. No momento da proposta, validadores encadeados permitirão ou não a liberação da operação.
+ - Adapter
+   - No cenário existem duas formas de se representar operações, aberta em parcelas e consolidada, podendo ser formas como dois módulos diferentes vêem as operações. Com a necessidade da representação de qualquer operação da forma consolidada, a presença do adaptador é necessária para as operações abertas em parcelas.
